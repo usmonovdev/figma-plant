@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(252, 252, 252);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #066F14;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navHref{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #1a1a1a;
+    transition: 200ms !important;
+}
+
+.navHref:hover{
+    transform: scale(1.2);
+}
+
+.navHrefSign{
+    padding: 1rem;
+    background: #066F14;
+    color: #fff !important;
+    transition: 200ms !important;
+}
+
+.navHrefSign:hover{
+    transform: scale(1.1);
+}
+
+/* Section asosiy qismi */
+.asChap h1{
+    font-size: 72px;
+    line-height: 92px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.asChap p{
+    font-size: 16px;
+    color: #a4a4a4;
+    font-family: DM Sans;
+    font-weight: normal;
+}
+
+.asChapBtn{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #066F14;
+    color: #fff !important;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 200ms !important;
+}
+
+.asChapBtn:hover{
+    transform: scale(1.1);
+}
+
+.asIchChaprow{
+    margin-top: 2.5rem !important;
+}
+
+.asChapImg{
+    width: 30%;
+    margin-top: -2rem;
+    margin-left: 10rem;
+}
+
+.asPastRow .col-4 h3{
+    font-weight: 700;
+    font-size: 36px;
+    color: #1a1a1a !important;
+}
+
+.asPastRow .col-4 p{
+    font-weight: 400 !important;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-weight: normal;
+    color: #1a1a1a !important;
+    margin-left: 10px;
+}
+
+.asOngImg{
+    margin-top: -50px;
+    width: 550px;
+}
+
+/* Ikkinchi Kontainer */
+.ikkiContCol h1{
+    font-size: 36px !important;
+    line-height: 50px !important;
+    font-weight: 700;
+}
+
+.ikkiContCol p{
+    font-family: DM Sans;
+    cursor: pointer;
+    color: rgb(74, 74, 74);
+}
+
+/* Uchinchi container */
+.uchYashilBg{
+    width: 70%;
+    height: 90%;
+    background: #066F14;
+}
+
+.uchBtnMor:hover{
+    transform: scale(1.1);
+}
+
+.uchRasm{
+    border-top: 30px solid #066F14;
+    border-left: 50px solid #066F14;
+}
+
+.uchRow{
+    margin-top: 100px !important;
+}
+
+/* Beshinchi qism */
+.beshChapBg{
+    width: 600px;
+    height: 200px;
+    background: #066F14;
+}
+
+/* Oltinchi qism Newslater */
+.form-control:focus {
+    color: #1a1a1a;
+    background-color: #fff;
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.oltiNews{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+.footerCol p{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1a1a1a;
+    margin-bottom: 0px !important;
+}
+
+.footerCol i{
+    padding: 10px;
+    background: #EDFFDD;
+    color: #066F14;
+    border-radius: 4px;
+}
+
+.footerCol a{
+    text-decoration: none;
+    font-family: DM Sans; font-weight: 400; line-height: 25px; color: #4a4a4a; font-size: 14px;
+    display: block;
+}
+
+
+@media screen and (max-width: 992px) {
+    .navHref:hover{
+        transform: none;
+    }
+
+    .navHrefSign{
+        background: none;
+        color: #1a1a1a !important;
+    }
+
+    .navHrefSign:hover{
+        transform: none;
+    }
+
+    .asPastRow{
+        text-align: center;
+    }
+
+    .oltiNews{
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    .yettiRasm5{
+        display: none !important;
+    }
+
+    .footerCol i{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .asChapImg{
+        width: 50%;
+        margin-top: -4rem;
+        margin-left: 5rem;
+    }
+
+    .asOngImg{
+        margin-top: 0px;
+        width: 550px;
+    }
+
+    .asChap h1{
+        font-size: 62px;
+        line-height: 80px;
+        font-weight: 700;
+        color: #1a1a1a;
+    }
+
+    .oltiNews{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .yettiRasm5{
+        display: none !important;
+    }
+
+    .yettiRasm4{
+        display: none !important;
+    }
+
+    .yettiRasm3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .uchRasm{
+        width: 90%;
+        border-top: 20px solid #066F14;
+        border-left: 40px solid #066F14;
+    }
+
+    .beshChapBg{
+        display: none;
+    }
+
+    .oltiRasm{
+        display: none;
+    }
+
+    .oltiNews{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .yettiRasm5{
+        display: none;
+    }
+
+    .yettiRasm4{
+        display: none;
+    }
+
+    .yettiRasm3{
+        display: none;
+    }
+
+    .ikkiUdalit{
+        display: none;
+    }
+}
